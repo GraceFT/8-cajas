@@ -1,0 +1,26 @@
+div {
+    background-color:gray;
+    border: 1px solid #000;
+    width:100px;
+    height: 100px;
+    margin: 5px;
+}
+
+.padre {
+    width: 370px;
+    height: 125px;
+    position: relative; 
+}
+.caja1 {
+    position: relative;
+    display: inline-block;
+
+}
+.caja1, .caja2, .caja3 {
+    margin: 10px;
+    margin-right: 3px;
+    display: inline-block;
+}
+.caja4, .caja5 {
+    display: inline-block;
+}
